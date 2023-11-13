@@ -12,6 +12,45 @@ int main()
     std::cout << "modify z branch!\n";
     std::cout << "modify y branch!\n";
     std::cout << "modify x branch!\n";
+    Test_CLASS(MultiplicationTests)
+    {
+    public:
+        TEST_METHOD(TestMethod1)
+        {
+            int i = 2;
+            int j = 0;
+            int actual = i*j
+            Assert::AreEqual(0, actual);
+        }
+         TEST_METHOD(TestMethod1)
+        {
+            int i = 13;
+            int j = 1;
+            int actual = i+j
+            Assert::AreEqual(14, actual);
+        }
+         TEST_METHOD(TestMethod1)
+        {
+            int i = 4;
+            int j = 2;
+            int actual = i*j
+            Assert::AreEqual(8, actual);
+        }
+         TEST_METHOD(TestMethod1)
+        {
+            int i = 13;
+            int j = 1;
+            int actual = i+j
+            Assert::AreEqual(13, actual);
+        }
+         TEST_METHOD(TestMethod1)
+        {
+            int i = 5;
+            int j = 4;
+            int actual = i*j
+            Assert::AreEqual(30, actual);
+        }
+    }
   
 }
 
